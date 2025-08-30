@@ -15,7 +15,7 @@ header {
     padding: 20px;
     background-color: #514f4f57;
     border-bottom: 1px solid #ddd;
-    position: static;
+    position: sticky;
     top: 0;
     z-index: 10;
 }
@@ -148,12 +148,12 @@ header .contact-info span {
     transition: color 0.3s ease;
 }
 
-.category:active {
+.category:hover {
     transform: scale(1.1);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-.category:active p {
+.category:hover p {
     color: #ff6f00; 
 }
 
