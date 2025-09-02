@@ -1,5 +1,5 @@
 
-/* Tablet  (till 768px) */
+/*------------------Tablet  (till 768px)--------------------------------------------- */
 @media (max-width: 768px) {
   /* Header */
   header {
@@ -178,8 +178,29 @@
     font-size: 15px;
     padding: 10px 20px;
   }
-}
 
+ .advantages-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    position: static;
+    margin-bottom: 60px;
+  }
+
+  .advantage {
+    position: static;
+    width: 80%;
+    text-align: center;
+  }
+
+  .car-image-wrapper {
+    margin-top: 40px;
+  }
+
+  .car-image {
+    max-width: 80%;
+  }
+}
 
 /* ------------------------------------------------------------------------------- */
 /* Phone  (max 480px) */
@@ -333,5 +354,39 @@
     font-size: 14px;
     padding: 10px;
   }
+  /* Rental Advantages */
+.rental-advantages h2 {
+    font-size: 22px;
+  }
+
+  .advantages-wrapper {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .advantage {
+    position: static;
+    width: 90%;
+    text-align: center;
+  }
+
+  .advantage img {
+    width: 30px;
+  }
+
+  .advantage p {
+    font-size: 14px;
+  }
+
+  .car-image-wrapper {
+    margin-top: 20px;
+  }
+
+  .car-image {
+    max-width: 90%;
+  }
 }
-/*  */
