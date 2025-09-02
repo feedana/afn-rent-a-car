@@ -401,4 +401,92 @@ header .contact-info span {
 }
 
 
+/*Rental adv  */
+.rental-advantages {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+}
+
+.rental-advantages h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.rental-advantages h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: orange;
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
+.advantages-wrapper {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.car-image-wrapper {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.car-image {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin-top: 5%;
+}
+
+
+.advantage {
+  position: absolute;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.advantage img {
+  width: 36px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.advantage p {
+  font-size: 15px;
+  color: #333;
+}
+
+/* Hover Effects */
+.advantage:hover {
+  transform: scale(1.05);
+}
+
+.advantage:hover img {
+  transform: scale(1.2);
+}
+
+/* Positioning icons */
+.advantage.left {
+  top: 10%;
+  left: 0;
+}
+
+.advantage.center {
+  top: -20px; /* lifted higher */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.advantage.right {
+  top: 10%;
+  right: 0;
+}
 /*  */
