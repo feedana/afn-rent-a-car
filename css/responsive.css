@@ -239,8 +239,7 @@
 /* ------------------------------------------------------------------------------- */
 /* Phone  (max 480px) */
 @media (max-width: 480px) {
-  /* Header */
-  header {
+  .header {
     display: none;
   }
 
@@ -265,6 +264,7 @@
   .hero-image {
     margin-top: 15px;
   }
+}
 
   /* Car Categories */
   .car-categories {
