@@ -1,8 +1,7 @@
 
 /*------------------Tablet  (till 768px)--------------------------------------------- */
 @media (max-width: 768px) {
-  /* Header */
-  header {
+  .header {
     flex-direction: column;
     align-items: flex-start;
     padding: 15px;
@@ -27,6 +26,7 @@
     justify-content: flex-start;
     margin-top: 10px;
   }
+}
 
   /* Hero Section */
   .hero {
@@ -199,6 +199,40 @@
 
   .car-image {
     max-width: 80%;
+  }
+
+/* Car rental section */
+@media (max-width: 1024px) {
+  .car-rental {
+    flex-direction: column;
+    padding: 50px 40px;
+    text-align: center;
+  }
+
+  .car-rental-content,
+  .car-rental-image {
+    max-width: 100%;
+  }
+
+  .car-rental-image img {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .faq-section {
+    padding: 30px 30px;
+  }
+
+  .faq-section h2 {
+    font-size: 26px;
+  }
+
+  .faq-box summary {
+    font-size: 17px;
+  }
+
+  .faq-box p {
+    font-size: 15px;
   }
 }
 
@@ -388,5 +422,45 @@
 
   .car-image {
     max-width: 90%;
+  }
+  /* Car rental section */
+  @media (max-width: 767px) {
+  .car-rental {
+    padding: 40px 20px;
+  }
+
+  .car-rental-content h2 {
+    font-size: 28px;
+  }
+
+  .car-rental-content p {
+    font-size: 16px;
+  }
+
+  .rental-form input,
+  .rental-form button {
+    width: 100%;
+  }
+
+  .rental-form button {
+    text-align: center;
+  }
+
+  .faq-section {
+    padding: 20px 15px;
+  }
+
+  .faq-section h2 {
+    font-size: 24px;
+  }
+
+  .faq-box summary {
+    font-size: 16px;
+    padding: 12px 16px;
+  }
+
+  .faq-box p {
+    font-size: 14px;
+    padding: 0 16px 12px 16px;
   }
 }

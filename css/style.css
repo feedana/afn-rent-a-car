@@ -550,4 +550,69 @@ header .contact-info span {
   width: 500px;
   max-width: 100%;
 }
+/* Faq Section */
+.faq-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.faq-section h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  position: relative;
+  border-bottom: 3px solid #ff6600;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.faq-box {
+  border: 1px solid #eee;
+  border-left: 4px solid #ff6600;
+  margin-bottom: 15px;
+  padding: 0;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.faq-box summary {
+  cursor: pointer;
+  padding: 15px 20px;
+  font-size: 18px;
+  list-style: none;
+  position: relative;
+}
+
+.faq-box[open] summary {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.faq-box p {
+  padding: 0 20px 15px 20px;
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+
+.faq-box summary::marker {
+  display: none;
+}
+
+.faq-box summary::after {
+  content: "+";
+  position: absolute;
+  right: 20px;
+  font-size: 20px;
+  color: #ff6600;
+  transition: transform 0.3s ease;
+}
+
+.faq-box[open] summary::after {
+  content: "−";
+}
+
 /*  */
